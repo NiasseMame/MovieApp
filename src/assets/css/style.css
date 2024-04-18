@@ -1,0 +1,104 @@
+body {
+  background-color: #666;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 50rem;
+  height: 9rem;  
+  font-size: 18px;
+  color: black;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movie-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 50rem;
+    height: 20rem;  
+  }
+  .movie-card img {
+    max-width: 100%;
+    height: auto; 
+    margin: 10px;
+  }
+  .details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .details h2 {
+    margin-top: 0;
+  }
+
+  .pick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .pick label {
+    margin-bottom: 10px;
+  }
+  
+  .pick select {
+    width: 200px;
+    padding: 8px;
+    margin: 10px;
+  }
+  
+  .pick button {
+    padding: 10px 20px;
+    margin: 15px;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pick button:hover {
+    background-color: #aaa;
+  }
+  .message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 50rem;
+    height: 20rem;  
+    font-size: 25px;
+    color: black;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
